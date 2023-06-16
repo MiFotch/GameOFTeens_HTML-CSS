@@ -1,0 +1,207 @@
+:root {
+    --main-color: rgb(247, 209, 134);
+    --second-color: rgb(182, 47, 85);
+    --third-color: rgb(136, 40, 62);
+    --text-color: #fff;
+}
+
+
+body {
+    background-color: var(--second-color);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    background-color: var(--second-color);
+    padding-bottom: 17px;
+    padding-top: 17px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    /* outline: solid red; */
+    width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50px;
+    background-color: white;
+    height: 90px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list {
+    margin-left: 180px;
+}
+
+.nav-list .list-item:not(:first-child) {
+    margin-left: 90px;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: #fff;
+    border-radius: 15px;
+    padding: 7px;
+    /* box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: var(--third-color);
+    color: var(--text-color);
+    transition: all 0.5s;
+}
+
+.hero{
+    background-image: url(./images/hero-bg.png);
+    
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-size: cover;
+
+    background-color: rgb(53, 8, 19);
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.hero .container{
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0.03cm;
+    text-align: center;
+
+    color: #fff;
+}
+
+.hero-text{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+
+    margin-top: 40px;
+}
+
+.hero-button{
+    font-weight: 600;
+    font-size: 20px;
+
+    background-color: var(--second-color);
+    color: #fff;
+
+    padding: 25px 50px;
+    margin-top: 60px;
+
+    border: none;
+    border-radius:  20px;
+
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--main-color);
+    transition: 0.4s;
+}
+
+.message-section {
+    background-image: url(./images/triangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100%;
+    background-color: var(--third-color);
+}
+
+.message-section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-message {
+    width: 600px;
+    height: 600px;
+    background-image: url(./images/174406973-blue-line-truck-with-radiation-materials-icon-isolated-seamless-pattern-on-red-background-vector.png);
+    color: #fff;
+
+    border-radius: 30px;
+
+    margin-top: 50px;
+}
+
+.why{
+    font-size: 25px;
+    font-weight: 500;
+
+    background-color: var(--third-color);
+
+    width: 400px;
+
+    border-radius: 50px 50px 50px 0px;
+
+    padding: 18px;
+    margin-left: 10px;
+}
+
+.reasons,
+.happy{
+     font-size: 25px;
+     font-weight: 500;   
+
+    background-color: var(--third-color);
+    
+        width: 400px;
+    
+        border-radius: 50px 50px 0px 50px;
+
+        padding: 18px;
+        margin-left: auto;
+        margin-right: 10px;
+}
+
+.why,
+.happy,
+.reasons{
+    margin-top: 40px;
+}
+
+.children{
+    margin-top: 135px;
+
+    border-radius: 30px;
+}
