@@ -45,17 +45,21 @@ a {
     
 }
 
-@media screen and(max-width: 576px) {
-    h1 {
-        font-size: 24px;
+@media screen and (max-width:1350px) {
+    .container {
+        max-width: 970px;
     }
+}
 
-    p {
-        font-size: 12px;
+@media screen and (max-width:992px) {
+    .container {
+        max-width: 750px;
     }
+}
 
-    img {
-        width: 300px;
+@media screen and (max-width:767px) {
+    .container {
+        max-width: none;
     }
 }
 
