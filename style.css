@@ -241,7 +241,7 @@ h1{
 .reasons{
     margin-top: 80px;
 }
-/* ********* */
+
 .children{
     width: 800px;
     height: 800px;
@@ -282,10 +282,12 @@ h1{
 
 .c-li-header {
     font-weight: 600;
+    text-align: center;
 }
 
 .c-li-text {
     font-weight: 600;
+    text-align: center;
 }
 
 .choice-list-1 {
@@ -393,12 +395,12 @@ h1{
 }
 
 .c-li-5 {
-    padding-top: 10px;
+    padding-top: 15px;
     background-color: #fff;
     border: solid 3px;
     border-radius: 30px;
     padding-left: 15px;
-    padding-right: 4px;
+    padding-right: 15px;
 }
 
 .c-li-5::before {
